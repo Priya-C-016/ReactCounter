@@ -1,0 +1,49 @@
+
+*{
+  margin:0;
+  padding:0;
+  border:none;
+  outline:none;
+  box-sizing: border-box;
+}
+body{
+  width:100vw;
+  height:100vh;
+  /* border:2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+.counter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(141, 248, 248);
+  border:2px solid rgb(69, 169, 169);
+  border-radius:20px;
+  padding:70px;
+  gap:20px;
+
+}
+.counter-title{
+  font-size: 60px;
+  font-family: 'sans-serif';
+}
+.counter-value{
+  font-size: 80px;
+}
+button{
+  width:70px;
+  height:70px;
+  border:2px solid black;
+  border-radius: 10px;
+  font-size:40px;
+  cursor: pointer;
+}
+.counter-controls{
+  display: flex;
+  justify-content: center;
+  gap:30px;
+}
